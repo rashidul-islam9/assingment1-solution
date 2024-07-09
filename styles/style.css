@@ -24,7 +24,7 @@ div h1{
     line-height: 23px;
     font-size: 20px;
     font-weight: 600;
-    padding: 17px 24px 17px 24px;
+    padding: 15px 20px 15px 20px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -35,9 +35,7 @@ div h1{
   /* banner section starts here */
 
 .banner-container{
-    position: absolute;
     border: 3px dashed whitesmoke;
-    width: 100%;
     height: 652px;
     left: 0;
     right: 0;
@@ -50,24 +48,24 @@ div h1{
    margin-top: 26px;
 }
 
-section div h1,p {
+ div h1,p {
   text-align: center;
 }
 
-section div h1 {
+ div h1 {
   font-size: 48px;
   font-weight: 800;
   color: rgb(13, 19, 33);
   margin-top: 32px;
   margin-bottom: 24px;
+}
 
-  section div p {
+   div p {
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
-    margin-bottom: 32px;
   }
-}
+
  div {
   text-align: center;
   margin-bottom: 44px;
@@ -83,5 +81,129 @@ section div h1 {
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
+ 
+ /* "Why Web Development??" starts here     */
+ 
+.box-container{
+  width: 1140px;
+  height: 1495px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 0 auto;
 
-    
+}
+.box-content{
+  width: 946px;
+  height: 1235px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  }
+.box-content-title{
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  margin-top: -90px;
+}  
+.box-content-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  margin-top: 24px;
+  
+}
+
+/* layer one style  */
+
+.mini-box1{
+  width: 855px;
+  height: 336px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row ;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.mini-box1-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  text-align: left;
+  margin-bottom: 16px;
+}
+.mini-box1-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  text-align: left;
+  margin-bottom: 32px;
+}
+.box1-layer1{
+  width: 477px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  
+}
+ .box1-layer2{
+  width: 259.56px;
+  height: 217.01px;
+  padding: 12px 20px 12px 20px;
+  margin-left: 10px;
+ }
+ 
+ /* layer 2 style  */
+
+ .mini-box2{
+  width: 855px;
+  height: 336px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row ;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.mini-box2-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  text-align: left;
+  margin-bottom: 16px;
+}
+.mini-box2-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  text-align: left;
+  margin-bottom: 32px;
+}
+.box2-layer1{
+  width: 477px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  
+}
+ .box2-layer2{
+  width: 259.56px;
+  height: 217.01px;
+  padding: 12px 20px 12px 20px;
+  margin-left: 10px;
+ }
