@@ -207,3 +207,35 @@ div h1{
   padding: 12px 20px 12px 20px;
   margin-left: 10px;
  }
+
+ /* video section starts here  */
+
+ .video-headline{
+  text-align: center;
+  margin-top: 127px;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+ }
+
+ .video-description{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  color: rgb(13, 19, 33);
+ }
+ .video{
+  border: 2px solid red;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1140px;
+  height: 614px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  margin: 0  auto;
+ }
