@@ -21,16 +21,23 @@ div h1{
      font-weight: 800;
 }
 .btn-primary{
-    line-height: 23px;
+    width: 230px;
+    height: 58px;
     font-size: 20px;
     font-weight: 600;
-    padding: 15px 20px 15px 20px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
   /* banner section starts here */
 
@@ -163,6 +170,11 @@ div h1{
   padding: 12px 20px 12px 20px;
   margin-left: 10px;
  }
+
+ .learn-btn{
+  width: 159px;
+  height: 48px;
+ }
  
  /* layer 2 style  */
 
@@ -239,3 +251,85 @@ div h1{
   padding: 32px;
   margin: 0  auto;
  }
+
+ /* 'my target' starts here */
+
+ .target-box-container{
+   width: 1340px;
+   height: 473px;   
+   margin: 0 auto;
+   margin-top: 141px;
+ }
+
+ .target-headline{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;  
+  color: rgb(13, 19, 33);
+  margin: 0 auto;
+ }
+ .target-description{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+ }
+
+ .target-box-content{
+  display: flex;
+   justify-content: space-evenly;
+ }
+
+ .box-content1{
+  width: 334px;
+  height: 250px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  margin-top: 40px;
+  padding: 35px;
+ }
+ .icons{
+  width: 56px;
+  height: 56px;
+ }
+
+ .box-align{
+  text-align: left;
+ }
+ .html-headline{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+ }
+.html-description{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.learn-more{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box-content2{
+  width: 334px;
+  height: 250px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  margin-top: 40px;
+  padding: 35px;
+}
+
+  .box-content3{
+    width: 334px;
+  height: 250px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  margin-top: 40px;
+  padding: 35px;
+  }
